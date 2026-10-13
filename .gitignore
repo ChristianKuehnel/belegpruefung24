@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Environment, secrets and credentials
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*credentials*.json
+*session*.json
+*auth*.json
+*.cookies
+*.har
+*.key
+*.pem
+
+# Sensitive runtime content (also MUST be kept outside the repo)
+portal24-mirror/
+mirror/
+downloads/
+private/
+profiles/
+playwright-profile/
+playwright-report/
+test-results/
+*.log
