@@ -36,3 +36,4 @@ playwright-profile/
 playwright-report/
 test-results/
 *.log
+config.local.yaml
