@@ -1,0 +1,13 @@
+# Template for config.local.yaml (copy to config.local.yaml and fill in).
+# config.local.yaml is gitignored — never commit real values.
+base_url: https://portal.example-verwalter.de/
+
+credentials:
+  email: your-email@example.com
+  password: your-password
+
+mirror:
+  destination: ~/data/portal24-mirror
+
+# Optional: override where session cookies are stored (default ~/.config/portal24/)
+# session_dir: ~/.config/portal24
